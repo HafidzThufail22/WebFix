@@ -1,0 +1,82 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    margin: 0;
+}
+.AboutUsheader {
+    color: #232745;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+main {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 100px;
+    font-family: "Montserrat", sans-serif; 
+    text-align: justify;
+}
+.MisiKami {
+   font-size: 30px;
+   margin-top: 10px; 
+}
+.KursusKami {
+    font-size: 30px;
+    margin-top: 10px;
+}
+.StirMobil {
+    font-weight: bold;
+    margin-top: 5px;
+}
+.Komputer {
+    font-weight: bold;
+    margin-top: 5px;
+}
+.Menjahit {
+    font-weight: bold;
+    margin-top: 5px;
+}
+.Keunggulan {
+    font-size: 30px;
+    margin-top: 10px;;
+}
+.lastAbout {
+    margin-top: 5px;
+}
+.Footer {
+    background-color: #232745;
+    color: #fff;
+    margin-top: 50px;
+}
+.TemukanKami {
+   text-align: center; 
+   padding-top: 30px;
+   padding-bottom: 25px;
+   font-weight: bold;
+   font-family: "Roboto Mono", monospace;
+}
+.Footer1 {
+    text-align: center;
+    display: flex;
+    padding: 1rem;
+    gap: 50px; 
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    font-family: "Roboto Mono", monospace;
+}
+.Copyright {
+    font-family: "Montserrat", sans-serif; 
+    text-align: center;
+    font-size: small;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-style: italic;
+}
+
+

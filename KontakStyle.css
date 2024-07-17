@@ -1,0 +1,68 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    margin: 0;
+}
+.kontenUtama {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.contact-item button {
+  border-radius: 20px;
+  border: none ;
+  background: #232745;
+  font-size: 15px;
+  text-decoration: none;
+  height: 50px;
+  width: 300px;
+  margin-top: 20px;
+}
+.contact-item a {
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+.contact-item button:hover{
+    background-color:rgb(4, 137, 95);
+}
+h1 {
+    text-align: center;
+}
+.Footer {
+    background-color: #232745;
+    color: #fff;
+    margin-top: 50px;
+}
+.TemukanKami {
+   text-align: center; 
+   padding-top: 30px;
+   padding-bottom: 25px;
+   font-weight: bold;
+   font-family: "Roboto Mono", monospace;
+}
+.Footer1 {
+    text-align: center;
+    display: flex;
+    padding: 1rem;
+    gap: 50px; 
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    font-family: "Roboto Mono", monospace;
+}
+.Copyright {
+    font-family: "Montserrat", sans-serif; 
+    text-align: center;
+    font-size: small;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-style: italic;
+}
+

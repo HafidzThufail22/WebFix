@@ -1,0 +1,59 @@
+nav {
+    background-color: #232745;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin-right: 50px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: "Roboto Mono", monospace;
+    color: white;
+    padding: 1rem 0;
+    padding-bottom: 0.2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    
+}
+li:not(:last-child) a:hover{
+    border-bottom: 2px solid white;
+}
+.Daftar:hover a{
+    color: black;
+}
+.NamaLembaga {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: roboto slap;
+}
+.Logo1{
+    font-size: 12px;
+    padding-left: 20px;
+}
+.Logo2 {
+    font-size:30px;
+    color: #20A4B0;
+    
+}
+.Daftar {
+  color: black;
+  border-radius: 20px;
+  border: none;
+  background: #20A4B0;
+  margin-left: 1px;
+  margin-right: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+}

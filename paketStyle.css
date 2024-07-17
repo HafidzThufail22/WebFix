@@ -1,0 +1,93 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    margin: 0;
+}
+main {
+    margin-top: 70px;
+    padding: 20px;
+}    
+.course-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}  
+.category-box {
+    background-color:#232745;
+    border: 5px solid #232745;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;       
+}
+.category-box img {
+    max-width: 150px;
+    max-height: 70px;
+}
+.category-box h2 {
+    margin-top: 0;
+    color: white;
+    font-family: sans-serif;
+}    
+.category-box p {
+    color: white;
+    font-family: "Montserrat", sans-serif; 
+}
+.judulPilihan {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.button-container {
+    margin: 15px 0;
+}
+.button-container button:hover {
+    background-color: white;
+    color: black;
+}
+.button-container button {
+    border-radius: 5px;
+    border: none;
+    background: #20A4B0;
+    font-size: 15px;
+    font-family: monospace;
+    color: white;
+    width: 100%;
+}
+.Footer {
+    background-color: #232745;
+    color: #fff;
+    margin-top: 50px;
+}
+.TemukanKami {
+   text-align: center; 
+   padding-top: 30px;
+   padding-bottom: 25px;
+   font-weight: bold;
+   font-family: "Roboto Mono", monospace;
+}
+.Footer1 {
+    text-align: center;
+    display: flex;
+    padding: 1rem;
+    gap: 50px; 
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    font-family: "Roboto Mono", monospace;
+}
+.Copyright {
+    font-family: "Montserrat", sans-serif; 
+    text-align: center;
+    font-size: small;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-style: italic;
+}
